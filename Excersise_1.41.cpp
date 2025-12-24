@@ -8,10 +8,7 @@ int num1 = 50;
 int num2 = 0;
 int sum = 0;
 
-    while (num1 <= 100){
-    sum += num1;
-    num1++;
-}
+    while (num1 <= 100){sum += num1; num1++;}
 std::cout <<"The sum: " <<sum;
 
     std::cout <<"\n-----------------------------------------" << std::endl;
@@ -28,7 +25,7 @@ minNum += value;
 std::cout<<value;
 value--;
 
-    if(value > 0){std::cout<<", ";}
+    if(value >= 0){std::cout<<", ";}
 }
    std::cout <<"\n-----------------------------------------" << std::endl;
 
