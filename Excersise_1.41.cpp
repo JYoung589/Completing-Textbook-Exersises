@@ -39,13 +39,13 @@ value--;
 
   std::cout <<"The range from "<< Num1 << " to " << Num2 << " is: \n";
 
-  while(Num1 < Num2){
-int i = 1;
-  Num1 += i;
+  while(Num1 <= Num2){
+    int i = 1;
     std::cout << Num1;
+    Num1 += i;
     i++;
 
-    if(Num1 < Num2){
+    if(Num1 <= Num2){
 
         std::cout <<", ";
     }
