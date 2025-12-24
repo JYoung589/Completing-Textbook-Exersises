@@ -38,7 +38,7 @@ value--;
     std::cin >> Num2;
 
   std::cout <<"The range from "<< Num1 << " to " << Num2 << " is: \n";
-
+if (Num1 < Num2){
   while(Num1 <= Num2){
     int i = 1;
     std::cout << Num1;
@@ -50,7 +50,24 @@ value--;
         std::cout <<", ";
     }
   }
+}
+else if(Num2 < Num1){
+   while(Num2 <= Num1){
+    int i = 1;
+    std::cout << Num2;
+    Num2 += i;
+    i++;
 
+    if(Num2 <= Num1){
+
+        std::cout <<", ";
+    }
+  }
+}
+
+else if(Num1 == Num2){
+    std::cout <<"The two integers are equal to each other";
+}
 
 
      std::cout <<"\n-----------------------------------------" << std::endl;
