@@ -25,8 +25,10 @@ std::cout<<"Numbers from 10 to 0: ";
 while(value >= 0){
 
 minNum += value;
-std::cout<<value << ", ";
+std::cout<<value;
 value--;
+
+    if(value > 0){std::cout<<", ";}
 }
    std::cout <<"\n-----------------------------------------" << std::endl;
 
