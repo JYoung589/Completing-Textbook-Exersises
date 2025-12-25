@@ -1,5 +1,5 @@
 #include <iostream>
-// Some practice using a while loop
+// Some practice using for loops
 // Jordan Young
 
 int main(){
@@ -60,4 +60,5 @@ else if(Num1 == Num2){
 
      std::cout <<"\n-----------------------------------------" << std::endl;
     return 0;
+
 }
